@@ -1,0 +1,16 @@
+{
+  "name": "curso-es6-rocketseat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/marjoritamise/rocketseat-es6.git",
+  "author": "<marjori.tamise@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5"
+  },
+  "scripts": {
+    "dev": "babel ./main.js -o ./bandle.js -w"
+  }
+}
